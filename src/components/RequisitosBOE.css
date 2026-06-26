@@ -1,0 +1,46 @@
+.requisitos-boe {
+  margin-top: 16px;
+}
+
+.requisitos-boe__header {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-h);
+  margin: 0 0 12px 0;
+}
+
+.requisitos-boe__content {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg-subtle, #f9fafb);
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.requisitos-boe__paragraph {
+  margin: 0 0 12px 0;
+}
+
+.requisitos-boe__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.requisitos-boe__identifier {
+  display: inline;
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent, #2563eb);
+  background: var(--accent-bg, #eff6ff);
+  border: 1px solid var(--accent-border, #bfdbfe);
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+.requisitos-boe__empty {
+  font-size: 14px;
+  color: var(--text-muted, #6b7280);
+  font-style: italic;
+}

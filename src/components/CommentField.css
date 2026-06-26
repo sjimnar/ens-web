@@ -1,0 +1,39 @@
+.comment-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.comment-field__label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.comment-field__textarea {
+  font-family: var(--sans);
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text-h);
+  resize: vertical;
+  min-height: 80px;
+  line-height: 1.5;
+}
+
+.comment-field__textarea::placeholder {
+  color: var(--text-muted, #9ca3af);
+}
+
+.comment-field__textarea:focus {
+  outline: 2px solid var(--accent-border);
+  outline-offset: 1px;
+}
+
+.comment-field__count {
+  font-size: 12px;
+  color: var(--text-muted, #6b7280);
+  text-align: right;
+}

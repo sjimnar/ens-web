@@ -1,0 +1,68 @@
+.pie-chart-container {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.pie-chart-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.pie-chart-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+  height: 220px;
+  cursor: pointer;
+}
+
+.pie-chart-body {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+
+.pie-chart-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.pie-chart-score__value {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--accent, #aa3bff);
+  line-height: 1;
+}
+
+.pie-chart-score__label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h, #08060d);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pie-chart-score__detail {
+  font-size: 12px;
+  color: var(--text, #6b6375);
+}
+
+.pie-chart-total {
+  margin: 1rem 0 0 0;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.pie-chart-empty {
+  color: #6b7280;
+  font-style: italic;
+  padding: 2rem 0;
+}

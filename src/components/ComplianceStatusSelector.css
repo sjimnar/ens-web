@@ -1,0 +1,41 @@
+.compliance-status-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.compliance-status-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.compliance-status-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.compliance-status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.compliance-status-select {
+  font-family: var(--sans);
+  font-size: 14px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text-h);
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.compliance-status-select:focus {
+  outline: 2px solid var(--accent-border);
+  outline-offset: 1px;
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+.venv
+.git
+.kiro
+contexto
+*.md
+.DS_Store

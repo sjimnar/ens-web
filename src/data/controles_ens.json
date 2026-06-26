@@ -1,0 +1,722 @@
+[
+  {
+    "category": "Articulos",
+    "category_description": "",
+    "control_id": "Art. 28.2  Declaración de Aplicabilidad",
+    "measure": "Elaborar una Declaración de Aplicabilidad — DA / SoA que relacione todas las medidas y refuerzos del Anexo II aplicables al sistema, indicando si aplican o no, su estado de implantación y justificación. Debe estar firmada por el Responsable de Seguridad.",
+    "documentation": "Declaración de Aplicabilidad ENS. Matriz de controles ENS. Relación de medidas base y refuerzos. Referencias a políticas, procedimientos, instrucciones y evidencias.",
+    "evidence": "DA formal; firma del Responsable de Seguridad; trazabilidad entre categoría/dimensiones y medidas aplicables; estado de implantación; justificación de aplicabilidad/no aplicabilidad.",
+    "observation": "Es obligatorio. La 808 verifica expresamente que exista un documento formal con medidas y refuerzos del Anexo II y que esté suscrito por el Responsable de Seguridad. El RD 311/2022 establece que las medidas seleccionadas se formalizan en la Declaración de Aplicabilidad. (BOE)"
+  },
+  {
+    "category": "Articulos",
+    "category_description": "",
+    "control_id": "Art. 28.3  Medidas compensatorias",
+    "measure": "Si se sustituye una medida ENS por una medida compensatoria, debe justificarse documentalmente que protege igual o mejor el riesgo sobre los activos y el sistema. Debe indicarse en la DA la correspondencia entre la medida ENS compensada y la medida compensatoria aplicada.",
+    "documentation": "Declaración de Aplicabilidad. Informe de justificación de medida compensatoria. Análisis de riesgos. Referencia a CCN-STIC 819 si se usa como guía. Registro de aprobación por Responsable de Seguridad.",
+    "evidence": "DA con medidas compensatorias; justificación formal; análisis de equivalencia o mejora; aprobación formal; evidencia de que se satisfacen principios básicos y requisitos mínimos del ENS.",
+    "observation": "No se puede marcar “no aplica” o sustituir una medida sin justificarlo. La 808 también pide justificar exclusiones de medidas que por categoría/dimensión aplicarían, y justificar medidas complementarias de vigilancia si se usan. (BOE)"
+  },
+  {
+    "category": "Articulos",
+    "category_description": "",
+    "control_id": "Art. 30  Perfiles de cumplimiento específicos",
+    "measure": "N/A si la organización no se acoge a un perfil de cumplimiento específico validado por el CCN.Si se acoge a uno, debe justificarlo en la DA y aplicar el conjunto de medidas/refuerzos definidos por el perfil.",
+    "documentation": "Declaración de Aplicabilidad. Perfil de Cumplimiento Específico aplicable. Justificación de aplicabilidad del perfil. Evidencia de validación/publicación por el CCN.",
+    "evidence": "DA con referencia al perfil; justificación formal; correspondencia entre perfil y medidas implantadas; evidencia de que el perfil es aplicable al tipo de entidad/sistema.",
+    "observation": "Solo aplica si se usa un perfil específico, por ejemplo un PCE validado por el CCN. El RD 311/2022 permite perfiles para sectores o entidades concretas, y la 808 verifica que su aplicación se recoja y justifique en la DA. (BOE)"
+  },
+  {
+    "category": "Articulos",
+    "category_description": "",
+    "control_id": "Art. 32 Informe del Estado de la Seguridad / INES",
+    "measure": "Aportar y actualizar, al menos anualmente, la información necesaria para el Informe del Estado de la Seguridad — INES, cuando la organización esté obligada por ser titular de sistemas dentro del ámbito del ENS.\n\nN/A para una entidad privada proveedora si no es titular del sistema ni tiene obligación contractual o sectorial de reportar INES.",
+    "documentation": "Registro/justificante INES. Procedimiento de reporte INES. Cuadro de mando de indicadores ENS. Inventario de sistemas reportados.",
+    "evidence": "Acceso electrónico al último informe INES; evidencia de actualización anual; datos aportados; indicadores de seguridad; trazabilidad con sistemas en alcance.",
+    "observation": "Para administraciones y entidades titulares de sistemas ENS, debe actualizarse al menos anualmente. La 808 pide acceso al último informe INES de la organización. (BOE)"
+  },
+  {
+    "category": "Articulos",
+    "category_description": "",
+    "control_id": "Art. 38.2  Publicidad de la conformidad ENS",
+    "measure": "Publicar en el portal web o sede electrónica las Declaraciones o Certificaciones de Conformidad ENS, conforme a la ITS aplicable. El distintivo ENS debe enlazar al documento correspondiente.\n\nN/A si la organización aún no está certificada o no ha emitido declaración de conformidad.",
+    "documentation": "Certificado ENS o Declaración de Conformidad. Distintivo ENS. Procedimiento de publicación y mantenimiento de distintivos. Página web/sede electrónica.",
+    "evidence": "Página publicada; distintivo ENS visible; enlace correcto al certificado/declaración; certificado vigente; alcance y categoría visibles; uso correcto del distintivo.",
+    "observation": "Aplica cuando ya existe declaración o certificación de conformidad. La 808 indica expresamente que solo aplica a organizaciones ya certificadas al realizar la auditoría. (BOE)"
+  },
+  {
+    "category": "Articulos",
+    "category_description": "",
+    "control_id": "Art. 40  Categoría de seguridad",
+    "measure": "Determinar formalmente la categoría de seguridad del sistema en función del impacto que tendría un incidente sobre disponibilidad, autenticidad, integridad, confidencialidad y trazabilidad.",
+    "documentation": "Documento de valoración de servicios e información. Metodología de categorización ENS. Matriz de valoración C/I/T/A/D. Informe de categorización del sistema.",
+    "evidence": "Valoración de servicios e información; criterios usados; justificación de niveles por dimensión; categoría resultante; aprobación formal.",
+    "observation": "Para nuestro caso de trabajo, las cinco dimensiones están en nivel MEDIO, por tanto la categoría resultante es MEDIA. La categoría se calcula según el nivel más alto de las dimensiones valoradas. (BOE)"
+  },
+  {
+    "category": "Articulos",
+    "category_description": "",
+    "control_id": "Art. 41Facultades para valorar y categorizar",
+    "measure": "Los Responsables de la Información y los Responsables de los Servicios deben valorar los activos esenciales de su competencia en las cinco dimensiones. Con base en esas valoraciones, el Responsable de Seguridad determina formalmente la categoría del sistema.",
+    "documentation": "Nombramiento de Responsables de Información, Servicio y Seguridad. Documento de valoración firmado por responsables. Acta o informe de categorización. Política de Seguridad con roles ENS.",
+    "evidence": "Documento formal de valoración suscrito por responsables; evidencia de conformidad de los responsables; documento formal de categorización por Responsable de Seguridad; acta de comité si hay varios responsables.",
+    "observation": "La 808 verifica tres puntos: valoración por responsables de información/servicio, documento formal con conformidad de dichos responsables y categorización formal por Responsable de Seguridad. (BOE)"
+  },
+  {
+    "category": "org",
+    "category_description": "Marco organizativo",
+    "control_id": "org.1  Política de seguridad",
+    "measure": "Disponer de una Política de Seguridad de la Información formal, aprobada, difundida y de obligado cumplimiento. Debe definir el marco de seguridad, roles, responsabilidades, estructura de gobierno y directrices de documentación.",
+    "documentation": "Política de Seguridad de la Información. Puede apoyarse en una norma de gestión documental del SGSI para estructura, aprobación, conservación y acceso a documentos.",
+    "evidence": "Documento PSI aprobado; evidencia de publicación/difusión; acta de constitución del Comité de Seguridad; designación y aceptación de responsabilidades; posible registro de legislación aplicable.",
+    "observation": "La CCN-STIC 804 indica que la política es un documento de alto nivel, accesible, conocido, breve, comprensible y que establece autoridades, roles y funciones. La 808 verifica documento formal, difusión, comité y responsabilidades."
+  },
+  {
+    "category": "org",
+    "category_description": "Marco organizativo",
+    "control_id": "org.2  Normativa de seguridad",
+    "measure": "Disponer de normativa interna que indique el uso correcto e indebido de equipos, servicios e instalaciones, y las consecuencias de incumplimiento. Debe ser aprobada y aceptada por empleados/colaboradores.",
+    "documentation": "Normativa de uso aceptable de activos y sistemas. Recomendable incluir o referenciar normas específicas: control de acceso, uso de equipos, correo, Internet, teletrabajo, soportes, clasificación/tratamiento de información, puesto limpio, uso de cloud, BYOD si aplica.",
+    "evidence": "Documento(s) de normativa; aprobación por órgano competente; aceptación formal por empleados/colaboradores; evidencia de difusión; evidencia de que se han seguido guías CCN-STIC aplicables.",
+    "observation": "La 804 exige que la normativa defina la posición de la organización, uso correcto/incorrecto, obligatoriedad y consecuencias disciplinarias. La 808 pregunta expresamente por normativa interna de uso correcto/indebido y aceptación formal."
+  },
+  {
+    "category": "org",
+    "category_description": "Marco organizativo",
+    "control_id": "org.3  Procedimientos de seguridad",
+    "measure": "Disponer de procedimientos documentados para tareas habituales y críticas, indicando qué se hace, quién lo hace, cómo se hace, cuándo aplica, registros generados y escalado ante anomalías.",
+    "documentation": "Procedimientos operativos de seguridad. Como mínimo: gestión de usuarios/accesos, gestión de cambios, gestión de incidentes, copias/restauración, tratamiento de información según nivel, gestión de soportes, altas/bajas, revisión de logs si aplica, administración de sistemas, comunicaciones/interconexiones si aplica.",
+    "evidence": "Procedimientos aprobados; evidencia de publicación/difusión; matriz RACI o equivalente; procedimiento de tratamiento de información según nivel; evidencia de validación por autoridad competente cuando aplique.",
+    "observation": "La 804 pide procedimientos paso a paso para evitar dependencia de personas concretas y cubrir actividades rutinarias/críticas. La 808 verifica que indiquen cómo y quién realiza cada tarea, que referencien la normativa interna y que se comuniquen a quienes deban conocerlos."
+  },
+  {
+    "category": "org",
+    "category_description": "Marco organizativo",
+    "control_id": "org.4  Proceso de autorización",
+    "measure": "Implantar un proceso formal para autorizar usos, accesos, conexiones, servicios, soportes, equipos móviles, BYOD, servicios de terceros e interconexiones. Debe quedar registro de cada autorización.",
+    "documentation": "Procedimiento de autorización de seguridad. Puede incluir formularios o flujos para: apertura de puertos/firewall, VPN, uso de USB, salida de portátiles, BYOD, alta de servicios cloud/SaaS, interconexiones, uso de medios alternativos y accesos excepcionales.",
+    "evidence": "Registros de autorizaciones; solicitudes aprobadas/rechazadas; responsables autorizadores; justificación; alcance; periodo de validez; evidencias de autorizaciones para enlaces, medios de comunicación, soportes, equipos móviles, BYOD y servicios de terceros.",
+    "observation": "No obliga por sí mismo a instalar firewall o GPO. Sí obliga a que acciones como abrir puertos en firewall, permitir VPN, desbloquear USB o usar SaaS estén formalmente autorizadas cuando apliquen. La 808 lo verifica expresamente."
+  },
+  {
+    "category": "op.pl",
+    "category_description": "Marco operacional. Planificación",
+    "control_id": "op.pl.1  Análisis de riesgos",
+    "measure": "Realizar y mantener actualizado un análisis de riesgos documentado, revisado al menos anualmente o ante cambios relevantes. Debe identificar activos, amenazas, salvaguardas, riesgos residuales y plan de tratamiento.\n\n+R1: realizar un análisis de riesgos semiformal, con metodología específica, catálogo básico de amenazas y semántica definida.",
+    "documentation": "Metodología de análisis de riesgos. Informe de análisis de riesgos. Plan de Tratamiento de Riesgos — PTR. Acta de aprobación/aceptación de riesgos por Comité de Seguridad o responsables competentes.",
+    "evidence": "Fecha de última iteración; informe de riesgos; valoración de activos; amenazas; salvaguardas; cálculo de riesgo inicial y residual; apetito/umbral de riesgo; PTR; aprobación formal y aceptación de riesgos residuales.",
+    "observation": "Puede hacerse con Excel estructurado o con herramienta tipo PILAR. Para MEDIA no basta una lista informal de riesgos: debe existir metodología semiformal."
+  },
+  {
+    "category": "op.pl",
+    "category_description": "Marco operacional. Planificación",
+    "control_id": "op.pl.2  Arquitectura de seguridad",
+    "measure": "Disponer de una arquitectura de seguridad documentada, con visión global del sistema, cómo se gestiona y cómo se defiende. Debe incluir instalaciones, equipos, comunicaciones, redes, interconexiones y líneas de defensa.\n\n+R1: disponer de un sistema de gestión de seguridad de la información aplicado al sistema, con auditorías internas y seguimiento de acciones correctivas/mejora.",
+    "documentation": "Documento de arquitectura de seguridad. Diagramas de red. Diagramas de líneas de defensa. Inventario de activos. Procedimiento de gestión documental. Plan/auditoría interna del SGSI/ENS.",
+    "evidence": "Planos de CPD/salas técnicas si aplican; diagramas de red; documentación de equipos, comunicaciones, conexiones externas, puntos de acceso, consolas de administración, firewalls, routers, balanceadores y segmentación si existen; informes de auditoría interna; seguimiento de acciones correctivas.",
+    "observation": "No obliga por sí solo a instalar un firewall, pero si existe perímetro, interconexión, segmentación o cortafuegos, debe estar reflejado y documentado en la arquitectura."
+  },
+  {
+    "category": "op.pl",
+    "category_description": "Marco operacional. Planificación",
+    "control_id": "op.pl.3  Adquisición de nuevos componentes",
+    "measure": "Formalizar un proceso de adquisición que tenga en cuenta el análisis de riesgos, la arquitectura de seguridad, necesidades técnicas, soporte, mantenimiento, financiación y formación.",
+    "documentation": "Procedimiento de adquisición de componentes TIC. Instrucción de requisitos mínimos de seguridad para compras. Plantilla de evaluación técnica/seguridad. En sector público, PPT/PCAP con requisitos ENS.",
+    "evidence": "Proceso de compras; evidencias de adquisiciones alineadas con el análisis de riesgos/PTR; compatibilidad con la arquitectura; requisitos de soporte y mantenimiento; evidencia de formación si aplica; pliegos o contratos.",
+    "observation": "No se deben adquirir componentes solo por criterio económico. Debe verificarse compatibilidad técnica y de seguridad antes de incorporarlos al sistema."
+  },
+  {
+    "category": "op.pl",
+    "category_description": "Marco operacional. Planificación",
+    "control_id": "op.pl.4  Dimensionamiento / gestión de la capacidad",
+    "measure": "Realizar un estudio previo de capacidad antes de la entrada en producción: hardware, software, almacenamiento, procesamiento, comunicaciones, personal e instalaciones.\n\n+R1: mantener actualizado el estudio/plan de capacidad durante todo el ciclo de vida y emplear herramientas o recursos de monitorización de capacidad.",
+    "documentation": "Estudio de capacidad. Plan de capacidad. Procedimiento de revisión de capacidad. Instrucción de monitorización de recursos.",
+    "evidence": "Estudio previo; plan de capacidad actualizado; evidencias de adquisiciones dimensionadas según el estudio; métricas de uso; monitorización de CPU, RAM, almacenamiento, comunicaciones, VPN, SAI, climatización o recursos cloud si aplica.",
+    "observation": "No exige una herramienta concreta, pero sí disponer de monitorización suficiente para anticipar saturaciones y justificar ampliaciones."
+  },
+  {
+    "category": "op.pl",
+    "category_description": "Marco operacional. Planificación",
+    "control_id": "op.pl.5  Componentes certificados",
+    "measure": "Usar el catálogo CPSTIC del CCN para seleccionar productos o servicios de terceros que formen parte de la arquitectura de seguridad. Si no existe producto en CPSTIC, justificar y usar certificaciones reconocidas conforme al art. 19 del RD 311/2022 cuando proceda.",
+    "documentation": "Procedimiento de selección/adquisición de productos de seguridad. Inventario de componentes de seguridad. Criterios de aceptación de productos no CPSTIC. Registro de certificaciones/cualificaciones.",
+    "evidence": "Evidencia de consulta CPSTIC; ficha del producto cualificado/aprobado; certificaciones alternativas si no hay CPSTIC; justificación técnica; criterios formalizados para excepciones; inventario de componentes afectados.",
+    "observation": "Para categoría MEDIA, lo concreto es exigir CPSTIC/certificación en productos o servicios que formen parte de la arquitectura de seguridad. op.pl.5.r1 TEMPEST y op.pl.5.r2 lista de componentes software aparecen como refuerzos a considerar, no como obligación general para MEDIA salvo que el contexto/riesgo lo requiera."
+  },
+  {
+    "category": "op.acc",
+    "category_description": "Marco operacional. Accesos",
+    "control_id": "op.acc.1  Identificación",
+    "measure": "Implantar identificación singular para toda entidad que acceda al sistema: usuario, administrador, tercero, cuenta técnica o proceso. No deben existir identificadores compartidos. Las cuentas deben deshabilitarse cuando el usuario cause baja, cambie de función o se revoque la autorización.\n\n+R1: la identificación debe permitir singularizar a la persona, sus responsabilidades y sus privilegios; debe mantenerse una lista actualizada de usuarios autorizados por recurso.",
+    "documentation": "Procedimiento de altas, bajas y modificación de usuarios. Política de control de acceso. Inventario/listado de usuarios, cuentas técnicas y cuentas privilegiadas.",
+    "evidence": "Listado de usuarios activos; evidencias de identificadores únicos; registros de altas/bajas; cuentas deshabilitadas; retención de cuentas deshabilitadas por trazabilidad; listado actualizado de usuarios autorizados por recurso.",
+    "observation": "No se admiten cuentas genéricas compartidas salvo casos muy justificados y controlados. En Directorio Activo, Entra ID, LDAP o IAM equivalente debe poder trazarse quién accede y con qué perfil."
+  },
+  {
+    "category": "op.acc",
+    "category_description": "Marco operacional. Accesos",
+    "control_id": "op.acc.2  Requisitos de acceso",
+    "measure": "Proteger los recursos del sistema mediante mecanismos que impidan su uso salvo a entidades autorizadas. Debe existir una matriz de permisos por recurso, perfil o rol, incluyendo sistemas, aplicaciones, carpetas, bases de datos, consolas, servicios cloud y ficheros de configuración.",
+    "documentation": "Matriz de control de acceso. Política de control de acceso. Inventario de recursos y responsables. Instrucción técnica de configuración de permisos.",
+    "evidence": "Evidencia de responsables por recurso; matriz de permisos; grupos/roles configurados; ACL/permisos en sistemas; control de acceso a configuración del sistema operativo y ficheros críticos.",
+    "observation": "No exige una GPO concreta. En entorno Windows, la forma práctica será usar grupos AD/Entra ID, ACL NTFS, GPO/Intune o RBAC según aplique."
+  },
+  {
+    "category": "op.acc",
+    "category_description": "Marco operacional. Accesos",
+    "control_id": "op.acc.3  Segregación de funciones y tareas",
+    "measure": "Segregar funciones incompatibles para evitar conflicto de interés, errores o abuso de privilegios. Separar, siempre que sea posible: desarrollo, operación, administración, auditoría, aprobación de cambios y puesta en producción.",
+    "documentation": "Matriz de segregación de funciones. Procedimiento de asignación de roles y responsabilidades. Matriz RACI. Procedimiento de gestión de cambios.",
+    "evidence": "Organigrama funcional; matriz de roles incompatibles; usuarios administradores; evidencias de que desarrollo no pasa directamente a producción; controles compensatorios si no puede segregarse por tamaño del equipo.",
+    "observation": "Si la entidad es pequeña y no puede separar personas, no lo marcaría como N/A: habría que aplicar controles compensatorios, como revisión por segundo responsable, registro de actividad y supervisión periódica."
+  },
+  {
+    "category": "op.acc",
+    "category_description": "Marco operacional. Accesos",
+    "control_id": "op.acc.4  Proceso de gestión de derechos de acceso",
+    "measure": "Gestionar concesión, modificación, revisión y revocación de derechos de acceso bajo mínimo privilegio, necesidad de conocer y autorización expresa. Todo acceso debe estar prohibido salvo autorización.",
+    "documentation": "Procedimiento de gestión de derechos de acceso. Política de control de acceso. Política de acceso remoto, si aplica. Formulario/ticket de solicitud de acceso.",
+    "evidence": "Tickets de alta/modificación/baja; aprobaciones por responsable del recurso; revisiones periódicas de permisos; evidencias de revocación por baja/cambio de puesto; revisión de cuentas privilegiadas.",
+    "observation": "Debe incluir también usuarios de terceros. Los privilegios administrativos deben estar restringidos y revisados."
+  },
+  {
+    "category": "op.acc",
+    "category_description": "Marco operacional. Accesos",
+    "control_id": "op.acc.5  Mecanismo de autenticación — usuarios externos",
+    "measure": "N/A si el sistema no permite acceso a usuarios externos.\n\nSi existen usuarios externos, deben identificarse y registrarse previamente de forma fidedigna antes de entregar credenciales. Las credenciales deben activarse bajo control del usuario o forzar cambio en primer acceso. Deben retirarse ante pérdida, fin de relación o falta de control exclusivo.\n\n+R1: para categoría MEDIA debe cumplirse al menos uno entre R1, R2, R3 o R4. Como mínimo: contraseña con complejidad y robustez frente a adivinación. Alternativas: OTP, certificado cualificado o certificado en soporte físico.",
+    "documentation": "Procedimiento de registro y autenticación de usuarios externos. Política de credenciales. Condiciones de uso/aceptación de obligaciones. Procedimiento de revocación de credenciales.",
+    "evidence": "Evidencia de registro previo; aceptación de obligaciones por el usuario; configuración de complejidad de contraseña o MFA/certificado; retirada de credenciales; logs de accesos si se implementa registro; evidencia de último acceso si aplica.",
+    "observation": "Para MEDIA, la 808 permite elegir al menos uno entre contraseña robusta, OTP, certificado cualificado o certificado en soporte físico. Si el acceso externo es sensible o expuesto a Internet, recomiendo MFA aunque no siempre sea la opción mínima."
+  },
+  {
+    "category": "op.acc",
+    "category_description": "Marco operacional. Accesos",
+    "control_id": "op.acc.6  Mecanismo de autenticación — usuarios de la organización",
+    "measure": "Implantar autenticación segura para usuarios internos. Debe limitarse la información mostrada antes/durante el login, bloquear o retardar tras intentos fallidos, registrar accesos, informar obligaciones de uso y gestionar entrega/retirada de credenciales.\n\n+R1: para categoría MEDIA debe cumplirse al menos uno entre R1, R2, R3 o R4. En zona controlada puede usarse contraseña robusta; para acceso desde zonas no controladas aplica doble factor por R8.+R5: registrar accesos correctos y fallidos e informar al usuario del último acceso realizado con su identidad.\n\n+R8: exigir doble factor para acceso desde zonas no controladas, por ejemplo Internet, mediante OTP, certificado o mecanismo equivalente.\n\n+R9: el acceso remoto debe estar autorizado, cifrado, registrado y deshabilitado cuando no sea necesario si no es de uso constante.",
+    "documentation": "Política de autenticación y contraseñas. Política de acceso remoto. Procedimiento de entrega y revocación de credenciales. Instrucción técnica de configuración de login, bloqueo, MFA y logs.",
+    "evidence": "Configuración de complejidad de contraseña; bloqueo por intentos fallidos; MFA para acceso remoto; logs de accesos correctos/fallidos; evidencia de último acceso mostrado; VPN o canal cifrado; autorización de acceso remoto; registros de conexiones remotas.",
+    "observation": "Aquí sí hay medida técnica clara: MFA obligatorio para acceso desde zonas no controladas. También debe cifrarse el acceso remoto, normalmente mediante VPN, ZTNA o solución equivalente. No es obligatorio usar GPO, pero en Windows/AD lo normal es aplicar GPO/Intune/IdP para contraseña, bloqueo, banner, logs y MFA."
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.1  Inventario de activos",
+    "measure": "Mantener un inventario actualizado de todos los elementos del sistema, indicando naturaleza del activo y responsable. Debe revisarse periódicamente para comprobar su exactitud.",
+    "documentation": "Procedimiento de inventario de activos. Inventario de activos TIC. Matriz de responsables de activos.",
+    "evidence": "Inventario actualizado; responsable por activo; evidencias de revisión periódica; herramienta de inventario o descubrimiento si existe.",
+    "observation": "No exige refuerzo para MEDIA. Los refuerzos R1-R4 existen, pero no son obligatorios para categoría MEDIA según aplicación de la medida. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.2  Configuración de seguridad",
+    "measure": "Configurar los equipos antes de entrar en operación: retirar cuentas/contraseñas por defecto, aplicar mínima funcionalidad, seguridad por defecto y gestionar máquinas virtuales como máquinas físicas.",
+    "documentation": "Instrucción técnica de bastionado. Baselines de configuración segura. Procedimiento de puesta en producción.",
+    "evidence": "Evidencias de bastionado; retirada de cuentas por defecto; checklist de puesta en producción; configuración segura de VM y hosts; revisión de servicios activos.",
+    "observation": "Aquí sí aplica claramente hardening. En Windows puede implantarse mediante GPO/Intune; en Linux mediante scripts, Ansible, CIS-CAT, OpenSCAP u otra herramienta. No se exige una GPO concreta, pero sí configuración segura verificable. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.3  Gestión de la configuración de seguridad",
+    "measure": "Gestionar de forma continua la configuración de los componentes, manteniendo mínima funcionalidad, mínimo privilegio, cambios autorizados, reacción ante vulnerabilidades e incidentes y edición solo por personal autorizado.\n\n+R1: mantener configuraciones hardware/software autorizadas y verificadas periódicamente para servidores, elementos de red y estaciones; mantener lista de servicios autorizados.",
+    "documentation": "Procedimiento de gestión de configuración. Baselines de configuración. Lista de servicios autorizados. Procedimiento de verificación de configuración.",
+    "evidence": "Registros de cambios de configuración; auditorías de bastionado; verificaciones de ausencia de elementos no autorizados; lista de servicios autorizados; evidencias de administradores autorizados.",
+    "observation": "Para MEDIA sí aplica +R1. Es recomendable usar herramienta de gestión de configuración, pero puede ser procedimiento manual si es trazable y verificable. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.4  Mantenimiento y actualizaciones de seguridad",
+    "measure": "Mantener equipamiento físico y lógico según especificaciones del fabricante. Debe existir un procedimiento para analizar, priorizar y aplicar parches, actualizaciones y nuevas versiones en función del riesgo. Solo personal autorizado puede realizar mantenimiento.\n\n+R1: probar nuevas versiones o parches en un entorno de prueba controlado y consistente con producción antes de pasarlos a producción.",
+    "documentation": "Procedimiento de mantenimiento y parcheado. Política de actualización de seguridad. Procedimiento de pruebas en preproducción.",
+    "evidence": "Contratos de mantenimiento; evidencias de actualizaciones; boletines o alertas de fabricante; pruebas de preproducción; registro de parches aplicados; autorización del personal de mantenimiento.",
+    "observation": "Sí es obligatorio tener gestión de parches. No exige una herramienta concreta tipo WSUS, SCCM, Intune, Ansible o EDR, pero en la práctica debe existir un mecanismo controlado y evidenciable. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.5  Gestión de cambios",
+    "measure": "Gestionar los cambios mediante registro, planificación, análisis de impacto, pruebas cuando sea posible, aprobación previa cuando el cambio implique riesgo alto, pruebas de aceptación y actualización de documentación tras el cambio.",
+    "documentation": "Procedimiento de gestión de cambios. Registro RFC/ticketing. Plantilla de análisis de impacto. Procedimiento de pruebas y aceptación.",
+    "evidence": "RFC/tickets; aprobaciones; actas CAB si aplica; informes de pruebas; análisis de riesgos del cambio; actualización de inventario, manuales y diagramas.",
+    "observation": "Para MEDIA aplica la medida base, sin R1. Para ALTA sí aplicaría +R1 con plan de reversión, comunicación de fallos y documentación del impacto en seguridad. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.6  Protección frente a código dañino",
+    "measure": "Disponer de mecanismos de prevención y reacción frente a código dañino. Debe instalarse protección antimalware en todos los equipos: puestos, servidores y elementos perimetrales. Todo fichero externo debe analizarse antes de su uso. Las bases de detección deben mantenerse actualizadas.\n\n+R1: escanear regularmente todo el sistema para detectar código dañino.\n\n+R2: analizar funciones críticas al arrancar el sistema para prevenir modificaciones no autorizadas.",
+    "documentation": "Política/procedimiento antimalware. Instrucción de configuración de antivirus/EDR. Procedimiento de revisión de alertas.",
+    "evidence": "Consola centralizada antimalware; cobertura de licencias; evidencias de despliegue en puestos, servidores y perímetro; configuración de protección en tiempo real; informes de escaneo; actualización de firmas; bloqueo de manipulación por usuario.",
+    "observation": "Aquí sí hay obligación técnica clara: antivirus, EDR o solución equivalente desplegada en puestos, servidores y elementos perimetrales. Para MEDIA no exige EDR expresamente; EDR aparece como R4 para ALTA. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.7  Gestión de incidentes",
+    "measure": "Disponer de un proceso integral de gestión de incidentes que incluya reporte de eventos/debilidades, clasificación, escalado, tratamiento y consideración específica de incidentes con datos personales.\n\n+R1: disponer de solución/cauce de ventanilla única para notificación de incidentes al CCN-CERT cuando corresponda.\n+R2: incluir medidas urgentes de detección y respuesta: parada de servicios, aislamiento del sistema afectado, recogida de evidencias, protección de registros, investigación, comunicación a responsables y medidas para evitar recurrencia.",
+    "documentation": "Procedimiento de gestión de incidentes. Protocolo de notificación a CCN-CERT. Protocolo de brechas de datos personales. Playbooks de respuesta.",
+    "evidence": "Registro de incidentes; clasificación y escalado; notificaciones; evidencias de comunicación a responsables; acciones de contención; evidencias recogidas; informes post-incidente; lecciones aprendidas.",
+    "observation": "Para MEDIA sí aplican +R1 y +R2. No exige automáticamente SOAR o automatización; la automatización aparece en refuerzos superiores/no aplicables a MEDIA. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.8  Registro de la actividad",
+    "measure": "Registrar eventos y actividades de usuarios y entidades que acceden al sistema. El registro debe incluir identificador, fecha/hora, información afectada, tipo de evento y resultado éxito/fallo.\n+R1: revisar periódicamente los registros, aunque sea de forma informal, buscando patrones anómalos.\n\n+R2: disponer de referencia de tiempo/NTP para registro y auditoría.\n\n+R3: documentar eventos auditados y tiempo de retención de logs.\n\n+R4: restringir acceso y eliminación de logs solo a personal autorizado.",
+    "documentation": "Política/procedimiento de gestión de logs. Matriz de eventos auditables. Política de retención de registros. Instrucción técnica NTP.",
+    "evidence": "Logs conservados; configuración de logs en servidores; revisión de logs; servidor NTP o equivalente; documentación de eventos auditados; evidencias de control de acceso a logs.",
+    "observation": "Para MEDIA no es obligatorio SIEM, pero sí registros, revisión, sincronización horaria, retención definida y control de acceso. SIEM/correlación automática corresponde al +R5, exigible para nivel ALTO de trazabilidad. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.9  Registro de la gestión de incidentes",
+    "measure": "Registrar todas las actuaciones relacionadas con incidentes: reportes iniciales, intermedios y finales, actuaciones de emergencia y modificaciones del sistema derivadas del incidente. Registrar evidencias con posible uso jurisdiccional y revisar eventos auditables tras los incidentes.",
+    "documentation": "Registro de incidentes. Procedimiento de custodia de evidencias. Protocolo de cadena de custodia, si aplica. Procedimiento post-incidente.",
+    "evidence": "Registro de incidentes por tipología; informes inicial/intermedio/final; acciones adoptadas; evidencias preservadas; revisión de eventos auditables; lecciones aprendidas.",
+    "observation": "No tiene refuerzo específico para MEDIA. Si puede haber acciones disciplinarias, proveedores implicados o delito, debe tratarse con asesoramiento legal/pericial. (BOE)"
+  },
+  {
+    "category": "op.exp",
+    "category_description": "Marco operacional. Explotación",
+    "control_id": "op.exp.10  Protección de claves criptográficas",
+    "measure": "Gestionar claves criptográficas durante todo su ciclo de vida: generación, transporte, custodia, archivo tras retirada y destrucción final. Los medios de generación deben estar aislados de los de explotación, y las claves retiradas archivadas en medios aislados.\n\n+R1: emplear algoritmos y parámetros autorizados por el CCN para generar/gestionar claves criptográficas.",
+    "documentation": "Política/procedimiento de gestión de claves criptográficas. Inventario de claves/certificados. Instrucción de generación, custodia, rotación, archivo y destrucción de claves.",
+    "evidence": "Evidencia de gestión segura de claves; algoritmos empleados; cifradores utilizados; evidencias de aislamiento de medios de generación; archivo y destrucción controlada; certificados o configuración criptográfica.",
+    "observation": "Para MEDIA sí aplica +R1. Si no se usan claves propias ni certificados gestionados por la organización, no lo marcaría directamente N/A: habría que acotar qué claves existen en TLS, VPN, backups, cifrado de disco, certificados, firmas o integraciones. (BOE)"
+  },
+  {
+    "category": "op.ext",
+    "category_description": "Marco operacional. Recursos externos",
+    "control_id": "op.ext.1  Contratación y acuerdos de nivel de servicio",
+    "measure": "Formalizar contrato/ANS con proveedores externos antes de usar el servicio. Debe incluir características del servicio, nivel mínimo admisible, responsabilidades, consecuencias de incumplimiento y requisitos de seguridad. Exigir certificación ENS al proveedor cuando el servicio sea relevante para el sistema ENS.",
+    "documentation": "Procedimiento de gestión de proveedores TIC. Modelo de cláusulas ENS para proveedores. Contrato/ANS/SLA. Acuerdo de confidencialidad, si aplica. Procedimiento de terminación/devolución/borrado de información.",
+    "evidence": "Contratos firmados; ANS/SLA; certificado ENS del proveedor con categoría y alcance suficiente; cláusulas de seguridad; evidencias de revisión periódica del contrato; procedimiento de salida del proveedor.",
+    "observation": "La 804 exige análisis de riesgos del proveedor, contrato formal, roles, obligaciones, SLA, avisos previos, coordinación de incidencias, indicadores y procedimiento de desconexión/terminación. La 808 verifica ANS/SLA y certificado ENS de proveedores relevantes."
+  },
+  {
+    "category": "op.ext",
+    "category_description": "Marco operacional. Recursos externos",
+    "control_id": "op.ext.2  Gestión diaria",
+    "measure": "Realizar seguimiento operativo del proveedor mediante indicadores, reportes, reuniones y tratamiento de desviaciones. Deben existir puntos de contacto y mecanismos de comunicación para incidencias, mantenimiento y escalado.",
+    "documentation": "Procedimiento de seguimiento de proveedores. Plan de seguimiento del servicio. Matriz de contactos/POC. Procedimiento de escalado de incidencias con proveedor.",
+    "evidence": "Informes de servicio; actas de reuniones; indicadores/KPI/KRI; evidencias de tickets/incidencias abiertas al proveedor; punto de contacto designado; evidencias de seguimiento de desviaciones.",
+    "observation": "No exige una herramienta concreta. Puede gestionarse con portal del proveedor, ticketing, correo controlado o actas, siempre que sea trazable. La 804 habla de indicadores, alarmas, resolución y escalado; la 808 verifica seguimiento, informes, POC e incidentes con proveedor."
+  },
+  {
+    "category": "op.ext",
+    "category_description": "Marco operacional. Recursos externos",
+    "control_id": "op.ext.3  Protección de la cadena de suministro",
+    "measure": "N/A para categoría MEDIA, salvo que por análisis de riesgos se decida aplicarlo como medida complementaria.",
+    "documentation": "Si se aplica: procedimiento de gestión de riesgos de cadena de suministro, análisis de dependencia de proveedores, PTR, BIA/PCN con proveedores críticos.",
+    "evidence": "Si se aplica: análisis de riesgos con proveedores; estudio de impacto; PTR; BIA con dependencia de proveedores; plan de continuidad con escenario de fallo de proveedor; pruebas de continuidad.",
+    "observation": "Según la tabla de compatibilidad ENS/ISO, este control aparece como aplicable a ALTA, no a MEDIA. La 808 verifica análisis de impacto/riesgo de incidentes originados en la cadena de suministro y medidas de contención."
+  },
+  {
+    "category": "op.ext",
+    "category_description": "Marco operacional. Recursos externos",
+    "control_id": "op.ext.4  Interconexión de sistemas",
+    "measure": "Autorizar y documentar todas las interconexiones con otros sistemas. Todo flujo de información debe estar prohibido salvo autorización expresa. Deben documentarse interfaz, requisitos de seguridad/protección de datos y naturaleza de la información intercambiada.",
+    "documentation": "Procedimiento de autorización de interconexiones. Registro de interconexiones. Diagramas de arquitectura/red. Ficha de interconexión. Matriz de flujos autorizados.",
+    "evidence": "Autorizaciones formales; documentación técnica de interconexiones; diagramas actualizados; descripción de flujos; requisitos de seguridad; evidencias de filtrado/segmentación si aplica.",
+    "observation": "Aquí sí puede implicar medida técnica: si hay interconexión de red con terceros u otros dominios, debe existir control perimetral/filtrado, normalmente mediante firewall, ACL, VPN, segmentación o equivalente. Para MEDIA no aplica +R1 de forma general; en ALTA sí aparece +R1."
+  },
+  {
+    "category": "op.nub",
+    "category_description": "Marco operacional. Servicios en la nube",
+    "control_id": "op.nub.1  Protección de servicios en la nube",
+    "measure": "N/A si el sistema no utiliza servicios en la nube dentro del alcance ENS.\nSi se utilizan servicios cloud —SaaS, IaaS, PaaS, backup remoto, correo cloud, almacenamiento cloud, M365, Azure, AWS, GCP, etc.—, deben cumplir las medidas ENS pertinentes y mantenerse durante toda la prestación del servicio.Debe verificarse que la solución cloud está configurada de forma segura, conforme a guías CCN-STIC aplicables o recomendaciones del fabricante.\n\n+R1: los servicios en la nube suministrados por terceros deben estar certificados bajo una metodología reconocida por el Organismo de Certificación del Esquema Nacional de Evaluación y Certificación de Seguridad de las TIC, o el sistema que los soporta debe estar certificado ENS. Si el servicio cloud es un servicio de seguridad, debe cumplir también op.pl.5 sobre productos/componentes certificados.",
+    "documentation": "Política/procedimiento de uso de servicios cloud. Procedimiento de evaluación y aprobación de servicios cloud. Registro de servicios cloud autorizados. Matriz de responsabilidades cliente/proveedor. Contrato/ANS/SLA con cláusulas de seguridad. Procedimiento de salida/devolución/borrado de datos. Instrucción de configuración segura cloud.",
+    "evidence": "Checklist de verificación de requisitos de seguridad cloud. Certificado ENS del proveedor o del sistema que soporta el servicio. Evidencia de conformidad ENS. Evidencia de pruebas de penetración cuando aplique. Evidencia de configuración segura. Evidencia de jurisdicción/localización de datos. Evidencia de cifrado y gestión de claves. Referencia CPSTIC si es una solución de seguridad en la nube.",
+    "observation": "Para categoría MEDIA, el punto crítico es la certificación/conformidad ENS del servicio cloud o del sistema que lo soporta. La 808 pide verificar cumplimiento ENS, configuración segura, pentesting, transparencia, cifrado, gestión de claves y jurisdicción de datos. La 825 confirma que para MEDIA se requiere la certificación correspondiente, y que si el cloud es servicio de seguridad debe cumplir op.pl.5."
+  },
+  {
+    "category": "op.cont",
+    "category_description": "Marco operacional. Continuidad del servicio",
+    "control_id": "op.cont.1  Análisis de impacto",
+    "measure": "Realizar un Análisis de Impacto en el Negocio — BIA para los servicios dentro del alcance ENS. Debe determinar los requisitos de disponibilidad de cada servicio, el impacto de una interrupción, los elementos críticos y las dependencias necesarias para prestar cada servicio.",
+    "documentation": "Procedimiento de continuidad de negocio / continuidad TIC. BIA / Análisis de Impacto en el Negocio. Mapa de dependencias de servicios y activos. Matriz de RTO/RPO. Acta de aprobación del BIA.",
+    "evidence": "BIA actualizado; RTO y RPO por servicio; dependencias de activos; servicios críticos identificados; fecha de actualización; aprobación formal por responsables de servicio/seguridad.",
+    "observation": "La 808 pide expresamente BIA con RTO/RPO, diagrama de dependencias y aprobación. También verifica que el BIA se actualice al menos anualmente y cuando cambien las circunstancias."
+  },
+  {
+    "category": "op.cont",
+    "category_description": "Marco operacional. Continuidad del servicio",
+    "control_id": "op.cont.2  Plan de continuidad",
+    "measure": "N/A para disponibilidad MEDIA.",
+    "documentation": "No obligatorio para este sistema por ENS, salvo decisión interna por riesgo, contrato, ISO 27001, cliente o necesidad de negocio. Si se decide implantar: Plan de Continuidad, Plan de Recuperación ante Desastres — DRP, planes de emergencia/contingencia y formación asociada.",
+    "evidence": "No aplica como evidencia obligatoria ENS para MEDIA. Si se implanta voluntariamente: plan aprobado, funciones y responsabilidades, actividades, formación, contratos/acuerdos de medios alternativos y comprobaciones tras discontinuidad.",
+    "observation": "Para disponibilidad ALTA sí aplicaría: plan de continuidad documentado, coherente con el BIA, funciones/responsabilidades, medios alternativos, formación y alineación con otros planes de continuidad. La 808 también contempla evidencias de DRP y comprobaciones tras discontinuidad. (BOE)"
+  },
+  {
+    "category": "op.cont",
+    "category_description": "Marco operacional. Continuidad del servicio",
+    "control_id": "op.cont.3  Pruebas periódicas",
+    "measure": "N/A para disponibilidad MEDIA.",
+    "documentation": "No obligatorio para este sistema por ENS. Si se implanta voluntariamente: Plan de pruebas de continuidad, calendario de simulacros, guion de prueba y procedimiento de registro de resultados.",
+    "evidence": "No aplica como evidencia obligatoria ENS para MEDIA. Si se implanta voluntariamente: informes de pruebas, fases y duración, comparativa con RTO del BIA, tickets de acciones correctivas y seguimiento de mejoras.",
+    "observation": "Para disponibilidad ALTA sí aplicaría realizar pruebas periódicas para localizar y corregir errores del plan de continuidad. La 804 menciona pruebas de validación, simulacros, prueba de entorno alternativo y prueba de interrupción completa. (BOE)"
+  },
+  {
+    "category": "op.cont",
+    "category_description": "Marco operacional. Continuidad del servicio",
+    "control_id": "op.cont.4  Medios alternativos",
+    "measure": "N/A para disponibilidad MEDIA.",
+    "documentation": "No obligatorio para este sistema por ENS. Si se implanta voluntariamente: Plan de medios alternativos, inventario de medios alternativos, contratos/ANS con proveedores, procedimiento de activación y retorno.",
+    "evidence": "No aplica como evidencia obligatoria ENS para MEDIA. Si se implanta voluntariamente: inventario de medios alternativos, contratos, evidencias de personal alternativo, instalaciones alternativas, comunicaciones alternativas y equipamiento alternativo.",
+    "observation": "Para disponibilidad ALTA sí aplicaría prever medios alternativos para servicios de terceros, instalaciones, personal, equipamiento informático y comunicaciones. Debe existir tiempo máximo de entrada en funcionamiento y las mismas garantías de seguridad que los medios originales. +R1 de transferencia automática solo aplica como refuerzo cuando corresponda, no para MEDIA. (BOE)"
+  },
+  {
+    "category": "op.mon",
+    "category_description": "Marco operacional. Monitorización del sistema",
+    "control_id": "op.mon.1  Detección de intrusión",
+    "measure": "Disponer de herramientas de detección y/o prevención de intrusiones — IDS/IPS.\n\n+R1: la detección/previsión de intrusiones debe estar basada en reglas configuradas para generar eventos de seguridad.",
+    "documentation": "Procedimiento de monitorización de seguridad. Procedimiento de respuesta a alertas IDS/IPS. Instrucción técnica de configuración de reglas IDS/IPS.",
+    "evidence": "Evidencia de herramienta IDS/IPS; reglas configuradas; eventos generados; panel de monitorización; posible sonda SAT-INET en sector público; evidencias de revisión de alertas.",
+    "observation": "Para categoría MEDIA aplica op.mon.1 + R1. Puede cumplirse con sonda IDS/IPS, capacidad IDS/IPS en firewall, solución cloud equivalente o SAT-INET si aplica. Aquí sí hay obligación técnica clara: debe existir capacidad IDS/IPS o equivalente."
+  },
+  {
+    "category": "op.mon",
+    "category_description": "Marco operacional. Monitorización del sistema",
+    "control_id": "op.mon.2  Sistema de métricas",
+    "measure": "Recopilar datos para conocer el grado de implantación de las medidas ENS aplicables y, cuando corresponda, alimentar el informe INES.\n\n+R1: recopilar métricas para evaluar la efectividad del sistema de gestión de incidentes.\n\n+R2: recopilar métricas para evaluar la eficiencia del sistema de gestión de la seguridad en términos de recursos consumidos, horas y presupuesto.",
+    "documentation": "Procedimiento de métricas e indicadores de seguridad. Cuadro de mando ENS/SGSI. Procedimiento de reporte al Comité de Seguridad. Registro INES si aplica.",
+    "evidence": "Declaración de Aplicabilidad con grado de implantación o nivel de madurez; métricas de incidentes; tiempos de resolución; recursos dedicados a seguridad; presupuesto; informes periódicos al Comité de Seguridad; información recopilada para INES si aplica.",
+    "observation": "Para categoría MEDIA aplica op.mon.2 + R1 + R2. La CCN-STIC 804 recomienda formalizar indicadores con objetivo, responsable, fuente, frecuencia, método de cálculo, criterios de valoración y canal de reporte."
+  },
+  {
+    "category": "op.mon",
+    "category_description": "Marco operacional. Monitorización del sistema",
+    "control_id": "op.mon.3  Vigilancia",
+    "measure": "Disponer de un sistema automático de recolección y consolidación de eventos de seguridad.\n\n+R1: disponer de correlación de eventos de seguridad.\n\n+R2: disponer de análisis dinámico de vulnerabilidades para determinar superficie de exposición, vulnerabilidades y deficiencias de configuración.",
+    "documentation": "Procedimiento de recolección y correlación de eventos. Procedimiento de gestión de vulnerabilidades. Procedimiento de revisión de alertas/prealertas. Contrato o procedimiento SOC, si está externalizado.",
+    "evidence": "Servidor syslog, SIEM, XDR, EDR centralizado, repositorio de eventos o solución equivalente; reglas/casos de correlación; prealertas; informes de análisis de vulnerabilidades; evidencias de acciones correctivas; contrato SOC si aplica.",
+    "observation": "Para categoría MEDIA aplica op.mon.3 + R1 + R2. SIEM no es obligatorio como producto concreto, pero sí debe existir recolección automática y correlación; puede hacerse con SIEM, repositorio centralizado con scripts, solución cloud, XDR/EDR o servicio SOC. También es obligatoria la capacidad de análisis dinámico de vulnerabilidades."
+  },
+  {
+    "category": "mp.if",
+    "category_description": "Medidas de protección. Protección de las instalaciones e infraestructuras",
+    "control_id": "mp.if.1  Áreas separadas y con control de acceso",
+    "measure": "Ubicar el equipamiento del sistema en áreas separadas y protegidas: CPD, sala técnica, armarios rack cerrados o zona restringida. Deben existir controles físicos para que solo acceda personal autorizado.",
+    "documentation": "Procedimiento de control de acceso físico. Inventario de áreas seguras. Plano de CPD/salas técnicas. Registro de responsables de área.",
+    "evidence": "Evidencia de CPD/sala técnica; cerraduras, tarjetas, llaves o control biométrico; racks con cierre si el CPD es compartido; CCTV o detectores de intrusión si aplica; planos protegidos.",
+    "observation": "Sí exige una medida física clara: control de acceso físico a CPD/sala técnica/rack. Si el CPD es compartido, debe haber cierre en armarios o jaulas."
+  },
+  {
+    "category": "mp.if",
+    "category_description": "Medidas de protección. Protección de las instalaciones e infraestructuras",
+    "control_id": "mp.if.2  Identificación de las personas",
+    "measure": "Mantener una relación de personas autorizadas a acceder a áreas restringidas y disponer de un sistema que identifique a quien entra y salga. Las visitas externas deben estar autorizadas y acompañadas.",
+    "documentation": "Procedimiento de autorización de acceso físico. Lista de personas autorizadas. Normas de uso del CPD/sala técnica. Libro o registro de visitas.",
+    "evidence": "Solicitudes y autorizaciones de acceso; base de datos de entradas/salidas; libro de visitas; comunicación de normas a visitas; evidencias de revisión periódica de autorizaciones.",
+    "observation": "Debe poder saberse quién estaba en el CPD/sala técnica en el momento de un incidente. La 804 recomienda segregar solicitud y autorización del acceso."
+  },
+  {
+    "category": "mp.if",
+    "category_description": "Medidas de protección. Protección de las instalaciones e infraestructuras",
+    "control_id": "mp.if.3  Acondicionamiento de los locales",
+    "measure": "Asegurar que los locales donde se ubica equipamiento esencial tienen condiciones ambientales adecuadas: temperatura, humedad, limpieza, ausencia de materiales innecesarios/inflamables y cableado organizado, etiquetado y protegido.",
+    "documentation": "Procedimiento de mantenimiento de instalaciones técnicas. Instrucción de revisión de CPD/sala técnica. Plano o documentación del cableado. Contratos de climatización/mantenimiento.",
+    "evidence": "Gráficas o registros de temperatura y humedad; contratos y boletines de mantenimiento; cableado etiquetado y peinado; canalizaciones protegidas; evidencias de separación entre alimentación y datos.",
+    "observation": "Sí exige control ambiental. No obliga a una herramienta concreta, pero debe existir evidencia objetiva de temperatura/humedad y mantenimiento."
+  },
+  {
+    "category": "mp.if",
+    "category_description": "Medidas de protección. Protección de las instalaciones e infraestructuras",
+    "control_id": "mp.if.4  Energía eléctrica",
+    "measure": "Garantizar suministro eléctrico adecuado para los locales con sistemas esenciales, incluyendo tomas suficientes, protección frente a fallos eléctricos y funcionamiento de luces de emergencia.\n\n+R1: en caso de fallo del suministro principal, garantizar abastecimiento eléctrico durante el tiempo requerido, alineado con el BIA; mediante SAI, baterías, grupo electrógeno o capacidad suficiente para parada ordenada.",
+    "documentation": "Procedimiento de mantenimiento eléctrico. Plan de capacidad eléctrica. BIA con requisitos de disponibilidad. Contrato de mantenimiento de SAI/grupo electrógeno. Registro de pruebas.",
+    "evidence": "Evidencia de SAI; porcentaje de carga; autonomía de baterías; pruebas de carga o en vacío; contrato de mantenimiento; boletines de revisión; informes eléctricos; evidencias de luces de emergencia.",
+    "observation": "Para MEDIA aplica +R1. No siempre es obligatorio tener grupo electrógeno; sí debe justificarse que el SAI/baterías cubren el BIA o permiten parada ordenada."
+  },
+  {
+    "category": "mp.if",
+    "category_description": "Medidas de protección. Protección de las instalaciones e infraestructuras",
+    "control_id": "mp.if.5  Protección frente a incendios",
+    "measure": "Realizar estudio del riesgo de incendio y desplegar medidas de prevención, detección y reacción: evitar materiales inflamables, señalización, detección, extinción y plan de emergencia.",
+    "documentation": "Plan de emergencia/autoprotección. Procedimiento de actuación ante incendio. Registro de mantenimiento de sistemas contra incendios. Evaluación de riesgo de incendio.",
+    "evidence": "Detectores de incendio; extintores o sistema de extinción; mantenimiento periódico; señalización; carteles de evacuación; puertas ignífugas/cortafuegos si aplica; simulacros o revisiones PRL si existen.",
+    "observation": "Sí exige protección física contra incendios. En CPD/sala técnica puede requerirse detección/extinción específica según riesgo."
+  },
+  {
+    "category": "mp.if",
+    "category_description": "Medidas de protección. Protección de las instalaciones e infraestructuras",
+    "control_id": "mp.if.6  Protección frente a inundaciones",
+    "measure": "Realizar estudio del riesgo de inundación/daños por agua y desplegar medidas de prevención, detección y reacción: evitar canalizaciones sobre equipos, detectar líquidos/humedad, disponer de desagüe o achique si aplica.",
+    "documentation": "Evaluación de riesgo de inundación/daños por agua. Procedimiento de reacción ante inundación. Registro de mantenimiento de detectores/bombas si existen.",
+    "evidence": "Detectores de humedad/líquidos; revisión de canalizaciones; bombas de achique o preinstalación si aplica; mantenimiento periódico; pruebas de arranque; evidencias de ubicación no expuesta.",
+    "observation": "Para MEDIA aplica. La exigencia concreta depende del riesgo físico: sótano, suelo técnico, tuberías, climatización con agua, cercanía a zonas inundables, etc."
+  },
+  {
+    "category": "mp.if",
+    "category_description": "Medidas de protección. Protección de las instalaciones e infraestructuras",
+    "control_id": "mp.if.7  Registro de entrada y salida de equipamiento",
+    "measure": "Registrar toda entrada y salida de equipamiento esencial del CPD/sala técnica, incluyendo identificación del equipo, fecha/hora, persona que lo retira/entrega y autorización del movimiento.",
+    "documentation": "Procedimiento de entrada/salida de equipamiento. Registro de movimientos. Instrucción de recepción/entrega de hardware. Integración con inventario de activos.",
+    "evidence": "Registro de entrada/salida; autorización del movimiento; identificación del activo; albaranes o tickets; actualización del inventario; registro de portátiles si no es comportamiento habitual.",
+    "observation": "Debe quedar trazabilidad. Aplica especialmente a servidores, cabinas, electrónica de red, equipos de backup, portátiles no habituales y soportes asociados."
+  },
+  {
+    "category": "mp.per",
+    "category_description": "Medidas de protección. Gestión del personal",
+    "control_id": "mp.per.1  Caracterización del puesto de trabajo",
+    "measure": "Definir, para cada puesto relacionado directamente con el manejo de información o servicios del sistema ENS, las responsabilidades en materia de seguridad. Deben basarse en el análisis de riesgos. También deben definirse los requisitos que debe cumplir la persona que ocupe el puesto, especialmente en términos de confidencialidad, formación, experiencia y referencias.\n\nN/A: +R1 Habilitación Personal de Seguridad — HPS, salvo que lo exija el análisis de riesgos o un sistema específico.",
+    "documentation": "Perfil de puesto con responsabilidades de seguridad. Matriz de roles y responsabilidades. RPT o descripción de puestos. Procedimiento de selección/asignación de personal. Requisitos de seguridad para personal externo en pliegos/contratos.",
+    "evidence": "Análisis de riesgos incluyendo puestos/personas; perfiles de puesto; RPT o equivalente; requisitos de seguridad por puesto; requisitos en pliegos para personal externo; evidencia de HPS solo si aplica.",
+    "observation": "Para categoría MEDIA aplica mp.per.1, pero no el refuerzo HPS de forma general. La HPS solo debe exigirse si resulta del análisis de riesgos o de requisitos específicos del sistema. (BOE)"
+  },
+  {
+    "category": "mp.per",
+    "category_description": "Medidas de protección. Gestión del personal",
+    "control_id": "mp.per.2  Deberes y obligaciones",
+    "measure": "Informar a cada persona que trabaje en el sistema de sus deberes y responsabilidades de seguridad, incluyendo medidas disciplinarias, obligaciones durante el desempeño del puesto, obligaciones tras baja/cambio de puesto y deber de confidencialidad. Para personal externo, deben establecerse los deberes de cada parte y el procedimiento ante incumplimientos.\n\n+R1: obtener confirmación expresa de que los usuarios conocen y aceptan las instrucciones de seguridad obligatorias y los procedimientos necesarios para cumplirlas.",
+    "documentation": "Normativa de deberes y obligaciones del personal. Acuerdo o cláusula de confidencialidad. Procedimiento de onboarding/offboarding. Procedimiento disciplinario o referencia al régimen aplicable. Cláusulas contractuales para proveedores y personal externo. Registro de aceptación expresa.",
+    "evidence": "Acuerdos de confidencialidad de empleados; acuerdos de confidencialidad con proveedores; contratos/pliegos con prestadores de servicios; aceptación formal de deberes y responsabilidades; registro de aceptación de normativa; evidencias de comunicación al personal externo.",
+    "observation": "Para categoría MEDIA aplica mp.per.2 +R1. En sector privado, las cláusulas de confidencialidad con empleados y proveedores son una evidencia clave. En sector público, la confidencialidad del empleado público puede venir ya asociada a su régimen jurídico, pero conviene evidenciar la comunicación de obligaciones ENS. (BOE)"
+  },
+  {
+    "category": "mp.per",
+    "category_description": "Medidas de protección. Gestión del personal",
+    "control_id": "mp.per.3  Concienciación",
+    "measure": "Realizar acciones periódicas de concienciación para que el personal conozca su papel y responsabilidad en la seguridad del sistema. Debe cubrir, al menos: buen uso de equipos/sistemas, normativa de seguridad, ingeniería social, identificación de incidentes o comportamientos sospechosos y procedimiento de reporte de incidentes.",
+    "documentation": "Plan de Concienciación o Plan de Formación y Concienciación. Calendario anual de campañas. Materiales de concienciación. Procedimiento de comunicación de incidentes.",
+    "evidence": "Plan anual o planificación mínima; evidencias de campañas; destinatarios/receptores; comunicaciones enviadas; contenidos sobre normativa, ingeniería social e incidentes; evidencias de recordatorios periódicos.",
+    "observation": "No exige herramienta concreta. Puede hacerse mediante sesiones, píldoras formativas, intranet, campañas de phishing simulado, newsletter, portal del empleado o plataforma e-learning. Lo importante es que sea periódico y evidenciable. (BOE)"
+  },
+  {
+    "category": "mp.per",
+    "category_description": "Medidas de protección. Gestión del personal",
+    "control_id": "mp.per.4  Formación",
+    "measure": "Formar regularmente al personal en materias de seguridad de la información necesarias para sus funciones. Debe cubrir, al menos: configuración de sistemas, detección y reacción ante incidentes, y gestión de la información en cualquier soporte: almacenamiento, transferencia, copias, distribución y destrucción. Debe evaluarse la eficacia de la formación.",
+    "documentation": "Plan de Formación o Plan de Formación y Concienciación. Programa formativo. Matriz de formación por perfil: usuarios, técnicos, administradores, directivos, responsables de seguridad y personal externo. Procedimiento de evaluación de eficacia.",
+    "evidence": "Plan de formación; programa de acciones realizadas; asistentes/listas de inscritos; certificados; pruebas, encuestas o evaluaciones de eficacia; certificados aportados por personal; requisitos formativos exigidos a personal externo.",
+    "observation": "Debe diferenciarse la formación general de la formación específica para técnicos, directivos y personas con responsabilidades de seguridad. La 808 pide evidenciar eficacia, no solo asistencia. (BOE)"
+  },
+  {
+    "category": "mp.eq",
+    "category_description": "Medidas de protección. Protección de equipos",
+    "control_id": "mp.eq.1 Puesto de trabajo despejado",
+    "measure": "Exigir que los puestos permanezcan despejados, sin documentación, USB, soportes, notas, impresiones u otros materiales con información no pública más allá de lo necesario para la tarea en curso.\n\n+R1: una vez usado, y siempre que sea factible, el material debe almacenarse en lugar cerrado: cajón, armario, taquilla, archivador o sala cerrada.",
+    "documentation": "Normativa de puesto despejado y pantalla limpia. Instrucción de tratamiento de documentación en papel y soportes removibles. Procedimiento de destrucción segura de documentación/soportes si aplica.",
+    "evidence": "Evidencia visual o revisión de puestos; normativa comunicada; disponibilidad de cajones/armarios cerrados; evidencias de concienciación; evidencias de destrucción segura si aplica.",
+    "observation": "Aplica claramente a papeles, USB, soportes removibles y documentación impresa. La 804 exige retirar el material al finalizar cada tarea y guardarlo en lugar cerrado; la 808 verifica puesto despejado y almacenamiento cerrado para información no pública."
+  },
+  {
+    "category": "mp.eq",
+    "category_description": "Medidas de protección. Protección de equipos",
+    "control_id": "mp.eq.2 Bloqueo del puesto de trabajo",
+    "measure": "Configurar bloqueo automático del puesto tras un tiempo de inactividad definido por la organización. Para reanudar la actividad debe requerirse nueva autenticación. El tiempo de bloqueo no debe poder ser modificado por el usuario. También deben cancelarse sesiones locales/remotas tras un tiempo superior de inactividad.",
+    "documentation": "Instrucción técnica de bloqueo de puesto. Política de pantalla limpia/bloqueo. Baseline de configuración de endpoints.",
+    "evidence": "Evidencia de GPO, Intune, MDM, política local gestionada o directiva equivalente; configuración de tiempo de bloqueo; evidencia de que el usuario no puede modificarlo; evidencia de cierre/cancelación de sesiones por inactividad.",
+    "observation": "Aquí sí hay una medida técnica clara: bloqueo automático obligatorio. En entorno Windows corporativo, lo normal es aplicarlo por GPO o Intune; en otros entornos, por MDM, política centralizada o configuración equivalente. La 808 pide evidencia de GPO o directiva de configuración."
+  },
+  {
+    "category": "mp.eq",
+    "category_description": "Medidas de protección. Protección de equipos",
+    "control_id": "mp.eq.3 Protección de equipos portátiles",
+    "measure": "Mantener inventario de portátiles con persona responsable asignada. Verificar regularmente que el portátil sigue bajo control del usuario asignado. Establecer normas de uso, acceso remoto, comunicación de pérdida/robo y restricciones de acceso cuando se conecten desde redes no controladas. Evitar que almacenen claves de acceso remoto no imprescindibles.\n\n+R1: proteger el portátil mediante cifrado de disco cuando el nivel de confidencialidad de la información almacenada sea MEDIO.",
+    "documentation": "Política de uso de portátiles. Política de acceso remoto seguro. Procedimiento de pérdida/robo de dispositivos. Inventario de portátiles. Instrucción técnica de cifrado de disco. Procedimiento de autorización de salida de equipos.",
+    "evidence": "Inventario de portátiles; asignación a usuario; evidencias de revisión; configuración de cifrado de disco —BitLocker, FileVault, LUKS o equivalente—; política de acceso remoto; registros de autorización de salida; evidencias de comunicación de pérdida/robo.",
+    "observation": "Para este caso, al tener confidencialidad MEDIA, el cifrado de disco en portátiles es obligatorio por +R1. No basta con contraseña de usuario. El cortafuegos personal es recomendable según 804, pero no lo trataría como obligación única si ya hay controles equivalentes."
+  },
+  {
+    "category": "mp.eq",
+    "category_description": "Medidas de protección. Protección de equipos",
+    "control_id": "mp.eq.4 Otros equipos conectados a la red",
+    "measure": "Controlar otros dispositivos conectados a la red, especialmente impresoras multifunción, IoT, equipos multimedia, dispositivos BYOD autorizados, dispositivos industriales/ICS u otros equipos con capacidad de almacenamiento o flujo de información. Deben tener configuración segura, control de flujos de entrada/salida y funcionalidad de borrado cuando almacenen información.\n\n+R1: emplear, cuando sea posible, productos o servicios que cumplan op.pl.5 sobre componentes certificados.",
+    "documentation": "Procedimiento de gestión de dispositivos conectados a red. Inventario de dispositivos no estándar. Baseline de configuración segura para impresoras/IoT/ICS. Procedimiento de borrado de información en dispositivos. Procedimiento de adquisición segura con criterio CPSTIC/op.pl.5.",
+    "evidence": "Inventario; configuración de seguridad; segmentación o filtrado si aplica; evidencias de borrado en dispositivos con almacenamiento; evidencias CPSTIC/certificación cuando sea posible; evidencias de revisión de configuración.",
+    "observation": "Aplica especialmente a impresoras multifunción, IoT e ICS. Si no existen otros dispositivos conectados a red, puede marcarse N/A, pero debe justificarse con inventario. Para MEDIA aplica +R1; +R2 sobre herramientas de visualización/control de conexión queda como no obligatorio para MEDIA salvo decisión por riesgo."
+  },
+  {
+    "category": "mp.com",
+    "category_description": "Medidas de protección. Protección de las comunicaciones",
+    "control_id": "mp.com.1  Perímetro seguro",
+    "measure": "Implantar un perímetro lógico seguro que separe la red interna del exterior. Todo el tráfico entre interior/exterior debe pasar por el perímetro, sin excepciones. Los flujos permitidos deben estar autorizados previamente.",
+    "documentation": "Procedimiento de gestión de firewall / perímetro. Matriz de flujos autorizados. Procedimiento de apertura/modificación de reglas. Diagrama de red/perímetro. Registro de cambios de reglas.",
+    "evidence": "Evidencia de firewall, cortafuegos cloud, security group, ACL, WAF o solución equivalente; reglas configuradas; tickets/autorizaciones de nuevas reglas; diagramas de red; evidencia de que no hay bypass del perímetro.",
+    "observation": "Aquí sí hay medida técnica clara: debe existir cortafuegos o sistema equivalente de protección perimetral si la red se conecta con el exterior. La 808 verifica expresamente equipos cortafuegos, reglas y autorizaciones de nuevos flujos."
+  },
+  {
+    "category": "mp.com",
+    "category_description": "Medidas de protección. Protección de las comunicaciones",
+    "control_id": "mp.com.2  Protección de la confidencialidad",
+    "measure": "Usar redes privadas virtuales cifradas — VPN o equivalente cifrado cuando la comunicación discurra por redes fuera del propio dominio de seguridad.\n\n+R1: emplear algoritmos y parámetros autorizados por el CCN para cifrar las comunicaciones fuera del dominio de seguridad.",
+    "documentation": "Política/procedimiento de comunicaciones cifradas. Instrucción técnica VPN/TLS/IPsec. Inventario de comunicaciones externas. Matriz de flujos cifrados. Procedimiento de gestión de certificados/claves.",
+    "evidence": "Evidencia de VPN, TLS, IPsec, túneles cifrados o equivalente; configuración criptográfica; algoritmos usados; certificados; evidencias de cifrado en accesos remotos, sedes, cloud, proveedores o administración externa.",
+    "observation": "Para confidencialidad MEDIA aplica mp.com.2 + R1. Si no existen comunicaciones fuera del dominio de seguridad, puede justificarse como N/A operativo, pero debe acreditarse con arquitectura y matriz de flujos. El RD 311/2022 exige VPN cifrada fuera del dominio y, para nivel MEDIO, algoritmos/parámetros autorizados por el CCN."
+  },
+  {
+    "category": "mp.com",
+    "category_description": "Medidas de protección. Protección de las comunicaciones",
+    "control_id": "mp.com.3  Protección de la integridad y autenticidad",
+    "measure": "En comunicaciones con puntos exteriores al dominio propio, asegurar la autenticidad del otro extremo antes de intercambiar información. Prevenir ataques activos: alteración de información en tránsito, inyección de información espuria y secuestro de sesión. Deben existir procedimientos de tratamiento de incidente si se detectan.\n\n+R1: proteger las comunicaciones mediante redes privadas virtuales cifradas cuando discurran fuera del dominio de seguridad.\n\n+R2: emplear algoritmos y parámetros autorizados por el CCN.",
+    "documentation": "Procedimiento de comunicaciones seguras. Instrucción técnica TLS/IPsec/VPN. Procedimiento de gestión de certificados. Procedimiento de respuesta ante ataques activos. Política de interconexiones.",
+    "evidence": "Evidencia de TLS/HTTPS, IPsec, VPN, certificados, mTLS si aplica; detalle de algoritmos; evidencias de autenticación del extremo remoto; pruebas de configuración segura; registros/incidentes si se detectan ataques activos.",
+    "observation": "Para integridad/autenticidad MEDIA aplica mp.com.3 + R1 + R2. La 808 verifica enlaces SSL/TLS o IPsec, VPN con algoritmos autorizados por el CCN, certificados y mecanismos frente a ataques activos."
+  },
+  {
+    "category": "mp.com",
+    "category_description": "Medidas de protección. Protección de las comunicaciones",
+    "control_id": "mp.com.4  Separación de flujos de información en la red",
+    "measure": "Segregar el tráfico de red para que cada equipo solo acceda a la información y servicios que necesita. Si existen comunicaciones inalámbricas, deben ir en segmento separado.\n\n+R1: implementar al menos tres segmentos de red mediante VLAN: usuarios, servicios y administración.",
+    "documentation": "Procedimiento de segmentación de red. Diagrama de red segmentada. Matriz de VLAN/subredes. Matriz de flujos entre segmentos. Instrucción técnica de configuración de VLAN/firewall/ACL.",
+    "evidence": "Diagramas de red; listado de VLAN/subredes; reglas inter-VLAN; configuración de switches/firewall; evidencia de red WiFi separada; monitorización de interconexiones entre segmentos.",
+    "observation": "Para categoría MEDIA debe cumplirse mp.com.4 + una de R1, R2 o R3. Para una implantación estándar, la opción mínima y práctica es R1: VLAN con usuarios, servicios y administración. Si no se usa VLAN, puede cumplirse con R2: VPN entre segmentos o R3: medios físicos separados."
+  },
+  {
+    "category": "mp.si",
+    "category_description": "Medidas de protección. Protección de los soportes de información",
+    "control_id": "mp.si.1  Marcado de soportes",
+    "measure": "Etiquetar o identificar los soportes de información indicando, sin revelar el contenido, el mayor nivel de seguridad o calificación de la información que contienen. Aplica a papel impreso, USB, discos externos, DVD, cintas, tarjetas, soportes de backup y otros medios.",
+    "documentation": "Norma de clasificación y marcado de soportes. Procedimiento de etiquetado de soportes. Inventario/registro de soportes. Instrucción de marcado para papel y soportes digitales.",
+    "evidence": "Evidencia de soportes marcados; documentos SGSI con nivel de calificación; directrices de valoración y calificación; inventario de soportes con nivel asignado.",
+    "observation": "Para categoría MEDIA aplica. La 804 indica que la etiqueta condiciona control de acceso, cifrado, entrada/salida y transporte. La 808 verifica que los soportes sensibles lleven marcas o metadatos con el mayor nivel de seguridad de la información contenida."
+  },
+  {
+    "category": "mp.si",
+    "category_description": "Medidas de protección. Protección de los soportes de información",
+    "control_id": "mp.si.2  Criptografía",
+    "measure": "Proteger mediante cifrado los dispositivos removibles cuando sea necesario, especialmente si salen del área controlada o contienen información con requisitos de confidencialidad/integridad. Aplica a USB, discos externos, DVD, cintas, soportes de backup u otros soportes extraíbles.",
+    "documentation": "Política de cifrado de soportes. Procedimiento de uso de soportes removibles. Instrucción técnica de cifrado. Procedimiento de gestión de claves vinculado a op.exp.10. Registro de excepciones.",
+    "evidence": "Evidencia de cifrado de USB/discos externos/soportes removibles; configuración de herramientas de cifrado; evidencias de algoritmos/parámetros autorizados por el CCN cuando proceda; inventario de soportes cifrados; registro de claves/custodia.",
+    "observation": "Para MEDIA aplica la medida base, sin refuerzo obligatorio. Si los USB están prohibidos, debe existir bloqueo técnico —por ejemplo GPO, Intune, MDM, EDR/DLP o configuración equivalente— y procedimiento de autorización de excepciones. Si se autorizan, deben ir cifrados. El BOE muestra mp.si.2 como aplicable en MEDIA, y los refuerzos +R1 +R2 para ALTA. (BOE)"
+  },
+  {
+    "category": "mp.si",
+    "category_description": "Medidas de protección. Protección de los soportes de información",
+    "control_id": "mp.si.3  Custodia",
+    "measure": "Custodiar los soportes bajo control físico o lógico, garantizando acceso solo a personal autorizado y respetando las condiciones de conservación del fabricante: temperatura, humedad y otros factores ambientales.",
+    "documentation": "Procedimiento de custodia de soportes. Registro/inventario de soportes custodiados. Procedimiento de acceso a armarios, cajas fuertes, salas o repositorios. Contrato de custodia externa si aplica.",
+    "evidence": "Evidencia de armarios/cajas cerradas; control de acceso físico; inventario de soportes; registros de préstamo/retirada; condiciones ambientales; contrato con tercero si custodia soportes.",
+    "observation": "Aplica a soportes fijos y extraíbles: cabinas, NAS, cintas, discos externos, backup físico, papel sensible, etc. La 804 exige diligencia y control, y la 808 verifica control de acceso físico o lógico y condiciones ambientales."
+  },
+  {
+    "category": "mp.si",
+    "category_description": "Medidas de protección. Protección de los soportes de información",
+    "control_id": "mp.si.4  Transporte",
+    "measure": "Garantizar la seguridad durante el transporte de soportes. Debe existir registro de salida y entrada, identificación del soporte, identificación del transportista, cotejo entre salidas/llegadas y alarma ante incidencias. Si el soporte contiene información sensible, debe aplicarse cifrado conforme a mp.si.2.",
+    "documentation": "Procedimiento de transporte de soportes. Registro de entrada/salida. Lista de transportistas autorizados. Contrato con mensajería/proveedor si aplica. Instrucción de embalaje seguro.",
+    "evidence": "Registro de entrada/salida; autorización de transporte; identificación del transportista; evidencias de cifrado; maletín/caja de seguridad si aplica; contrato con tercero; cotejo periódico de salidas y llegadas.",
+    "observation": "Si no se transportan soportes fuera de instalaciones, el transporte externo puede tratarse como N/A operativo, pero debe justificarse. Si se transportan backups físicos, discos, portátiles con soportes o documentación sensible, aplica plenamente."
+  },
+  {
+    "category": "mp.si",
+    "category_description": "Medidas de protección. Protección de los soportes de información",
+    "control_id": "mp.si.5  Borrado y destrucción",
+    "measure": "Garantizar el borrado seguro o destrucción de soportes tras su uso. Los soportes reutilizados o entregados a otra persona/organización deben borrarse de forma que la información no sea recuperable. Si no puede garantizarse el borrado seguro, el soporte debe destruirse.\n\n+R1: emplear productos o servicios que cumplan op.pl.5 sobre componentes certificados/cualificados para borrado o destrucción.",
+    "documentation": "Procedimiento de borrado y destrucción de soportes. Registro de borrado/destrucción. Contrato con empresa destructora si aplica. Instrucción técnica de borrado seguro. Procedimiento de baja de activos.",
+    "evidence": "Registro con identificación del soporte, número de serie, método/herramienta, fecha, responsable y resultado; certificado de borrado/destrucción; contrato con tercero; evidencias de herramienta certificada/cualificada; verificación del borrado.",
+    "observation": "Para categoría MEDIA aplica +R1. La 808 pide registro, verificación, contrato si se externaliza y certificado específico del soporte tratado, no un certificado genérico por peso o lote. La 804 referencia criterios de borrado/destrucción y guías CCN-STIC específicas."
+  },
+  {
+    "category": "mp.sw",
+    "category_description": "Medidas de protección. Protección de las aplicaciones informáticas",
+    "control_id": "mp.sw.1  Desarrollo de aplicaciones",
+    "measure": "El desarrollo debe realizarse en un entorno diferente y separado de producción. No debe haber herramientas ni datos de desarrollo en producción, ni datos de producción en desarrollo.\n\n+R1: las aplicaciones deben desarrollarse aplicando mínimo privilegio, accediendo solo a los recursos imprescindibles y con los privilegios indispensables.\n\n+R2: debe aplicarse una metodología de desarrollo seguro reconocida, considerando seguridad durante todo el ciclo de vida, normas de programación segura, tratamiento de datos de prueba y posibilidad de inspección del código fuente.\n\n+R3: la seguridad debe formar parte integral del diseño: identificación/autenticación, protección de la información tratada y generación/tratamiento de pistas de auditoría.\n\n+R4: preferiblemente no se usarán datos reales en pruebas; si se usan, deberá garantizarse el nivel de seguridad correspondiente.",
+    "documentation": "Política de desarrollo seguro. Procedimiento de ciclo de vida seguro del software —SDLC—. Norma de programación segura. Procedimiento de segregación de entornos. Procedimiento de gestión de repositorios/código fuente. Procedimiento de gestión de datos de prueba.",
+    "evidence": "Evidencia de entornos separados: desarrollo, pruebas/preproducción y producción; controles de acceso diferenciados; repositorio de código; metodología segura aplicada —por ejemplo OWASP, SDL u otra—; revisión de requisitos de seguridad; evidencias de mínimo privilegio; evidencias de anonimización/disociación de datos de prueba o protección equivalente si se usan datos reales.",
+    "observation": "Para categoría MEDIA aplica mp.sw.1 + R1 + R2 + R3 + R4. +R5 lista formal de componentes software de terceros/SBOM queda N/A como obligación para MEDIA, aunque es recomendable si hay desarrollo propio o dependencia relevante de librerías. El RD 311/2022 fija estos refuerzos para MEDIA, y la 804 insiste en separar desarrollo/producción y evitar que la seguridad se añada al final como “parche”."
+  },
+  {
+    "category": "mp.sw",
+    "category_description": "Medidas de protección. Protección de las aplicaciones informáticas",
+    "control_id": "mp.sw.2  Aceptación y puesta en servicio",
+    "measure": "Antes de pasar una aplicación a producción, debe comprobarse su correcto funcionamiento y que cumple los criterios de aceptación en materia de seguridad. También debe verificarse que no deteriora la seguridad de otros componentes del servicio.\n\n+R1: las pruebas deben realizarse en un entorno aislado de preproducción.",
+    "documentation": "Procedimiento de aceptación y puesta en servicio de aplicaciones. Checklist de criterios de aceptación de seguridad. Procedimiento de pruebas en preproducción. Procedimiento de paso a producción. Guía de instalación/configuración segura si aplica. Guía de uso seguro si aplica.",
+    "evidence": "Evidencia de pruebas y verificación de criterios de aceptación; informe de pruebas en preproducción; aprobación del paso a producción; verificación de que no afecta negativamente a otros componentes; informes de pentesting o pruebas de seguridad cuando aplique; guías de instalación/configuración segura aportadas por proveedor si aplica.",
+    "observation": "Para categoría MEDIA aplica mp.sw.2 + R1. +R2 auditoría de código fuente queda N/A como obligación para MEDIA, salvo que lo exija el análisis de riesgos, contrato, criticidad de la aplicación o decisión del Responsable de Seguridad. La 808 pide evidencias de pruebas, criterios de aceptación, integridad frente a otras aplicaciones/componentes y, si procede, guías del proveedor e informes de pentesting."
+  },
+  {
+    "category": "mp.info",
+    "category_description": "Medidas de protección. Protección de la información",
+    "control_id": "mp.info.1  Datos personales",
+    "measure": "Si el sistema trata datos personales, el Responsable de Seguridad debe recoger los requisitos de protección de datos fijados por el responsable o encargado del tratamiento, con asesoramiento del DPD cuando proceda. Deben implantarse medidas según la naturaleza, alcance, contexto, fines del tratamiento y riesgos para derechos y libertades.\n\nN/A si el sistema no trata datos personales.",
+    "documentation": "Política de protección de datos o referencia en la PSI. Registro de Actividades de Tratamiento —RAT—. Procedimiento de ejercicio de derechos. Procedimiento de brechas de datos personales. Análisis de riesgos incluyendo protección de datos. EIPD si procede. Contratos de encargo de tratamiento si hay proveedores.",
+    "evidence": "RAT; designación/notificación del DPD si aplica; análisis de riesgos; evaluación de necesidad de EIPD; procedimiento de derechos; registros de incidentes marcados como datos personales; evidencias de intervención del DPD; procedimiento de notificación de brechas.",
+    "observation": "En la práctica, casi todos los sistemas tratan algún dato personal: usuarios, logs, correos, clientes, empleados, candidatos, etc. No exige HPS. Sí exige alinear ENS con RGPD/LOPDGDD."
+  },
+  {
+    "category": "mp.info",
+    "category_description": "Medidas de protección. Protección de la información",
+    "control_id": "mp.info.2  Calificación de la información",
+    "measure": "Establecer criterios de calificación/clasificación de la información. Para información no clasificada, usar niveles internos como pública, uso interno, restringida, confidencial o USO OFICIAL cuando exista restricción por sensibilidad/confidencialidad. Debe identificarse el responsable de cada información y las medidas aplicables según calificación.",
+    "documentation": "Norma de clasificación/calificación de la información. Matriz de información y responsables. Norma de valoración de información y categorización del sistema. Relación de medidas por nivel de calificación. Procedimiento de modificación de nivel de seguridad.",
+    "evidence": "Información valorada por sus responsables; escala de clasificación; criterios incluidos en PSI o normativa interna; responsables de información designados; evidencias de aprobación formal del nivel asignado; medidas asociadas a cada nivel.",
+    "observation": "Para confidencialidad MEDIA aplica mp.info.2. El responsable de cada información asigna y documenta el nivel de seguridad requerido, y tiene la potestad de modificarlo. (BOE)"
+  },
+  {
+    "category": "mp.info",
+    "category_description": "Medidas de protección. Protección de la información",
+    "control_id": "mp.info.3  Firma electrónica",
+    "measure": "Usar tipos de firma electrónica previstos en el ordenamiento jurídico: firma electrónica, CSV, firma avanzada, firma cualificada u otros mecanismos válidos según proceso.\n\n+R1: cuando se empleen firmas electrónicas avanzadas basadas en certificados, estos serán certificados cualificados.\n\n+R2: emplear algoritmos y parámetros autorizados por el CCN o por un esquema nacional/europeo aplicable.\n\n+R3: garantizar, cuando proceda, la verificación y validación de la firma durante el tiempo requerido, adjuntando o referenciando certificados, datos de verificación y validación.\n\nN/A si el sistema no genera, valida ni conserva documentos o transacciones firmadas electrónicamente.",
+    "documentation": "Política de firma electrónica y certificados. Procedimiento de firma y validación. Procedimiento de custodia de certificados. Procedimiento de preservación de firmas. Inventario de certificados.",
+    "evidence": "Relación de tipos de firma usados; certificados empleados; CA emisora; caducidad; almacenamiento seguro de certificados; evidencias de validación; algoritmos; registros de firma; evidencias de preservación/verificación a largo plazo.",
+    "observation": "Para integridad/autenticidad MEDIA aplica mp.info.3 +R1 +R2 +R3. No exige obligatoriamente firma cualificada con producto certificado para MEDIA; eso corresponde a refuerzos superiores/condiciones específicas. (BOE)"
+  },
+  {
+    "category": "mp.info",
+    "category_description": "Medidas de protección. Protección de la información",
+    "control_id": "mp.info.4  Sellos de tiempo",
+    "measure": "N/A para categoría MEDIA.",
+    "documentation": "No obligatorio para este sistema por ENS. Si se implanta voluntariamente: Política de sellado de tiempo, procedimiento de resellado, inventario de sellos y certificados asociados.",
+    "evidence": "No aplica como evidencia obligatoria ENS para MEDIA. Si se implanta: evidencias de sellos de tiempo, CA/PSC emisor, caducidad, almacenamiento seguro, resellado y uso de sellos cualificados.",
+    "observation": "El RD 311/2022 indica que mp.info.4 no aplica para nivel MEDIO de trazabilidad; aplica en ALTO. Si por contrato, proceso administrativo o prueba electrónica se requieren sellos de tiempo, entonces debe gestionarse como medida adicional. (BOE)"
+  },
+  {
+    "category": "mp.info",
+    "category_description": "Medidas de protección. Protección de la información",
+    "control_id": "mp.info.5  Limpieza de documentos",
+    "measure": "Retirar de documentos electrónicos toda información adicional no necesaria antes de su difusión: metadatos, campos ocultos, comentarios, revisiones anteriores, autores, rutas internas, propiedades del documento, datos de geolocalización, etc.",
+    "documentation": "Norma de limpieza de documentos y metadatos. Instrucción de publicación/envío seguro de documentos. Instrucción de uso de herramientas de limpieza de metadatos.",
+    "evidence": "Evidencia de documentos publicados o enviados sin metadatos no deseados; normativa específica; herramienta de limpieza o manual de limpieza; revisión de documentos en sede electrónica, portal web, licitaciones, informes o correos externos.",
+    "observation": "Para confidencialidad MEDIA aplica. Aquí sí puede requerirse herramienta técnica: limpiador de metadatos, DLP, configuración de Office/PDF o procedimiento manual verificable. No basta con decir “revisar antes de enviar” si no hay instrucción o herramienta."
+  },
+  {
+    "category": "mp.info",
+    "category_description": "Medidas de protección. Protección de la información",
+    "control_id": "mp.info.6  Copias de seguridad",
+    "measure": "Realizar copias de seguridad que permitan recuperar datos perdidos accidental o intencionadamente. La periodicidad y retención deben estar definidas en normativa interna y alineadas con el RPO del BIA cuando exista.\n\n+R1: probar regularmente los procedimientos de copia y restauración; la frecuencia dependerá de la criticidad de los datos y del impacto de indisponibilidad.",
+    "documentation": "Política/procedimiento de copias de seguridad y restauración. Plan de backup. Matriz de sistemas/datos respaldados. Matriz RPO/RTO. Procedimiento de restauración. Registro de pruebas de restauración.",
+    "evidence": "Configuración de backups; evidencias de ejecución correcta; registros de errores y actuación ante fallos; informes del proveedor si están externalizadas; comparativa con RPO; pruebas de restauración; controles de acceso a copias; ubicación de copias.",
+    "observation": "Para disponibilidad MEDIA aplica mp.info.6 +R1. +R2: copia separada en lugar diferente es obligatorio para ALTA, pero en MEDIA es muy recomendable, especialmente frente a ransomware. La 808 verifica que la normativa incluya frecuencia, retención, almacenamiento, acceso autorizado y pruebas de restauración. (BOE)"
+  },
+  {
+    "category": "mp.s",
+    "category_description": "Medidas de protección. Protección de los servicios",
+    "control_id": "mp.s.1  Protección del correo electrónico",
+    "measure": "N/A si el correo electrónico no forma parte del alcance ENS.\n\nSi aplica, proteger el correo frente a amenazas propias: spam, malware, código móvil, uso indebido, fuga de información y protección del encaminamiento de mensajes. Debe protegerse tanto el cuerpo del mensaje como los anexos cuando contengan información sensible. Si el servidor de correo es propio, debe estar bastionado.",
+    "documentation": "Normativa de uso seguro del correo electrónico. Instrucción de configuración segura del correo. Procedimiento de cifrado de correo, si aplica. Procedimiento de gestión de spam/phishing. Plan de concienciación sobre correo seguro.",
+    "evidence": "Configuración antispam; evidencias de antivirus/antimalware en correo; logs del filtro de correo; evidencias de cifrado cuando sea necesario; campañas de concienciación; bastionado del servidor si es propio.",
+    "observation": "Aquí sí hay medidas técnicas claras: filtro antispam y protección antivirus/antimalware del correo. Si se usa M365, Google Workspace u otro SaaS, se verifican las configuraciones del servicio y las evidencias del proveedor. La 808 verifica normativa, cifrado si procede, filtro antispam, antivirus y formación."
+  },
+  {
+    "category": "mp.s",
+    "category_description": "Medidas de protección. Protección de los servicios",
+    "control_id": "mp.s.2  Protección de servicios y aplicaciones web",
+    "measure": "N/A si no existen servicios o aplicaciones web en alcance ENS.\n\nSi aplica, proteger los servicios web frente a ataques propios: bypass de autenticación, manipulación de URL/cookies, inyección de código, escalada de privilegios y XSS. Debe apoyarse en desarrollo seguro, configuración segura, mantenimiento/parcheado y segregación de funciones.\n\n+R1: realizar auditorías de seguridad de caja negra, de forma periódica, sobre aplicaciones web durante desarrollo y antes de producción.Alternativa \n\n+R2: realizar auditorías de seguridad de caja blanca durante desarrollo, usando metodología definida y herramientas automáticas de detección de vulnerabilidades.",
+    "documentation": "Procedimiento de seguridad de aplicaciones web. Procedimiento de auditoría técnica web. Procedimiento de desarrollo seguro. Procedimiento de aceptación y paso a producción. Instrucción de hardening web. Procedimiento de gestión de vulnerabilidades web.",
+    "evidence": "Informes de auditoría de caja negra o caja blanca; evidencias de corrección de vulnerabilidades; pruebas de seguridad previas a producción; configuración segura del servidor web; evidencias de WAF si existe; evidencias de protección frente a inyección, XSS, cookies, URL y escalada.",
+    "observation": "Para categoría MEDIA debe cumplirse al menos uno entre +R1 o +R2. La opción mínima práctica es +R1 caja negra periódica. WAF no es obligatorio como producto concreto, aunque la 804 lo contempla como alternativa válida de protección previa al servidor web."
+  },
+  {
+    "category": "mp.s",
+    "category_description": "Medidas de protección. Protección de los servicios",
+    "control_id": "mp.s.3  Protección de la navegación web",
+    "measure": "Proteger la navegación web de usuarios internos frente a amenazas propias: páginas maliciosas, descargas ejecutables, código activo, spyware, ransomware, cookies, navegación indebida y resolución de direcciones web maliciosas. Debe existir normativa de uso de Internet y concienciación periódica.\n\nN/A solo si el sistema no permite navegación web desde usuarios internos o puestos en alcance.",
+    "documentation": "Normativa de uso seguro de navegación web / Internet. Política de cookies. Instrucción de configuración segura de navegadores. Procedimiento de filtrado/monitorización de navegación si aplica. Plan de concienciación sobre navegación segura.",
+    "evidence": "Normativa de uso de Internet; campañas de concienciación; configuración segura de navegadores; evidencias de protección frente a webs maliciosas; DNS filtering, proxy, Secure Web Gateway, EDR, firewall o solución equivalente si existe; registros de navegación si se monitoriza.",
+    "observation": "Para MEDIA aplica la medida base. +R1 restricciones y monitorización de navegación y +R2 lista blanca de destinos no son obligatorios para MEDIA como refuerzo general. No obstante, debe existir protección real frente a amenazas web; no basta solo con una política escrita."
+  },
+  {
+    "category": "mp.s",
+    "category_description": "Medidas de protección. Protección de los servicios",
+    "control_id": "mp.s.4  Protección frente a la denegación de servicio",
+    "measure": "Establecer medidas preventivas frente a ataques DoS/DDoS. Debe planificarse capacidad suficiente para la carga prevista, proteger elementos expuestos, aplicar tecnologías frente a ataques conocidos y contemplar filtros o protecciones en firewall/perímetro/proveedor.\n\nN/A solo si no hay servicios en alcance cuya disponibilidad deba protegerse frente a DoS/DDoS; con disponibilidad MEDIA normalmente aplica.",
+    "documentation": "Procedimiento de protección frente a DoS/DDoS. Procedimiento de reacción ante ataques DoS/DDoS. Plan de capacidad. Matriz de servicios expuestos. Acuerdo con proveedor de comunicaciones o proveedor cloud/CDN si aplica.",
+    "evidence": "Evidencias de protección tecnológica anti-DDoS; filtros DDoS en firewalls; evidencias de capacidad de comunicaciones; configuración perimetral; acuerdo con proveedor de Internet/cloud/CDN; procedimiento de reacción; registros de incidentes o pruebas si existen.",
+    "observation": "Para categoría MEDIA aplica la medida base. +R1 detección, notificación y tratamiento de ataques DoS/DDoS queda como no obligatorio para MEDIA, pero es recomendable si hay servicios publicados en Internet. La 804 indica medidas como IDS, alarmas por consumo de ancho de banda o número elevado de conexiones."
+  }
+]
