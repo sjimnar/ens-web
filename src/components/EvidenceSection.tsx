@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import type { EvidenceLink, EvidenceFile } from '../types';
 import './EvidenceSection.css';
 
-const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5 MB
+const MAX_FILE_SIZE = 30 * 1024 * 1024; // 30 MB
 
 export function isValidUrl(value: string): boolean {
   try {
@@ -65,7 +65,7 @@ export function EvidenceSection({
     if (!file) return;
 
     if (file.size > MAX_FILE_SIZE) {
-      setFileError('El archivo excede el tamaño máximo de 5 MB');
+      setFileError('El archivo excede el tamaño máximo de 30 MB');
       if (fileInputRef.current) {
         fileInputRef.current.value = '';
       }
@@ -160,7 +160,7 @@ export function EvidenceSection({
       <div className="evidence-form">
         <div className="evidence-form-row">
           <label htmlFor={`evidence-file-${controlId}`} className="evidence-label">
-            Archivo (máx. 5 MB)
+            Archivo (máx. 30 MB)
           </label>
           <input
             id={`evidence-file-${controlId}`}

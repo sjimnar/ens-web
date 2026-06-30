@@ -52,7 +52,7 @@ describe('StorageService - Property Tests', () => {
       'text/plain',
       'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     ),
-    size: fc.integer({ min: 1, max: 5 * 1024 * 1024 }), // ≤5MB
+    size: fc.integer({ min: 1, max: 30 * 1024 * 1024 }), // ≤30MB
     data: fc.uint8Array({ minLength: 1, maxLength: 1024 }).map(arr => arr.buffer as ArrayBuffer),
     addedAt: fc.date({ min: new Date('2020-01-01T00:00:00.000Z'), max: new Date('2030-01-01T00:00:00.000Z') }).filter(d => !isNaN(d.getTime())).map(d => d.toISOString()),
   }) as fc.Arbitrary<EvidenceFile>;

@@ -52,7 +52,7 @@ describe('StorageService - Property 10: Evidence removal completeness', () => {
       'text/plain',
       'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     ),
-    size: fc.integer({ min: 1, max: 5 * 1024 * 1024 }),
+    size: fc.integer({ min: 1, max: 30 * 1024 * 1024 }),
     data: fc.uint8Array({ minLength: 1, maxLength: 256 }).map(arr => arr.buffer as ArrayBuffer),
     addedAt: isoDateArb,
   }) as fc.Arbitrary<EvidenceFile>;

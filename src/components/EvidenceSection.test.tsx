@@ -161,7 +161,7 @@ describe('EvidenceSection', () => {
     expect(onRemoveFile).toHaveBeenCalledWith('file-1');
   });
 
-  it('shows error in Spanish when file exceeds 5 MB', async () => {
+  it('shows error in Spanish when file exceeds 30 MB', async () => {
     render(<EvidenceSection {...baseProps} />);
 
     const fileInput = screen.getByLabelText(/Archivo/);
@@ -170,11 +170,11 @@ describe('EvidenceSection', () => {
     });
 
     // Override size property for test
-    Object.defineProperty(largeFile, 'size', { value: 6 * 1024 * 1024 });
+    Object.defineProperty(largeFile, 'size', { value: 31 * 1024 * 1024 });
 
     fireEvent.change(fileInput, { target: { files: [largeFile] } });
 
-    expect(screen.getByText('El archivo excede el tamaño máximo de 5 MB')).toBeInTheDocument();
+    expect(screen.getByText('El archivo excede el tamaño máximo de 30 MB')).toBeInTheDocument();
     expect(baseProps.onAddFile).not.toHaveBeenCalled();
   });
 
